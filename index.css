@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+html{
+    scroll-behavior: smooth;
+}
+.bggg{
+    background-color: #0d1422;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0d1422;
+    padding: 10px 20px;
+}
+.group{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    color: white;
+    font-size: 28px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+div>a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.buy{
+    background-color: #cfd0d3;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0d1422;
+}
+.buy:hover{
+    background-color: white;
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to bottom, transparent, #0d1422), url('https://cdn.sega.co.uk/humankind-game/public/styles/1600/public/content/media/bg/image/KeyArt_Oceania_3840x2160%20%282%29.jpg?itok=yTuvzoyN');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img1{
+    width: 500px;
+}
+.now{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 20px 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.now:hover{
+    background-color: white;
+    color: #0d1422;
+}
+header>div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sec1{
+    /* height: 80vh; */
+    background-image: url('https://cdn.sega.co.uk/humankind-game/public/styles/1600/public/content/media/bg/image/promo-bg.jpg?VersionId=HZ1AlmqwqhlqGTEEKndB0ADt.nP_ojQ2&itok=7Pb4cYpA');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.now1{
+    background-color: #0d1422;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 20px 40px;
+    color: white;
+    font-size: 18px;
+}
+.now1:hover{
+    background-color: transparent;
+    color: #0d1422;
+    border: 1px solid #0d1422;
+}
+.sec1>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 28px;
+}
+.sec2{
+    height: 50vh;
+    background-image: url('https://cdn.sega.co.uk/humankind-game/public/styles/1600/public/content/media/bg/image/G2G-Background.jpg?VersionId=zwMCcUzGQJMDjtF4wRZbVeh5LhmtBOdZ&itok=RQ2y4fuN');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    flex-basis: 80%;
+    
+}
+.sec2>div>p{
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.logo1{
+    padding-left: 50px;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.logo1:hover{
+    background-color: white;
+    color: #0d1422;
+}
+.foot{
+    background-color: #13223f;
+    height: 100vh;
+    padding: 50px 100px;
+}
+.foot>div>p{
+    color: white;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.hr1{
+    display: flex;
+    font-weight: bold;
+    gap: 30px;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.ss{
+    margin-top: 50px;
+}
+.sec3{
+    background-color: #131622;
+    padding: 50px;
+}
+.sec3>h2{
+    color: white;
+    justify-self: center;
+    margin-bottom: 50px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0px 100px;
+    background-color: #131622;
+}
+.group1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.group2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.grid{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+.sade{
+    display: grid;
+    height: 120vh;
+    /* give everything class and height */
+    gap: 5px;
+    grid-template-columns: 2fr 1fr 3fr 1fr 2fr;
+} 
+@media screen and (max-width:1024px) {
+    *{
+    }
+}
+.animsec{
+    background-image: url(https://cdn.sega.co.uk/humankind-game/public/styles/1600/public/content/media/bg/image/quote_bg.jpg?VersionId=6WLCQHMf.V5zlZf7861yHzFKqEJQ20qn&itok=EAvqfyl3);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    animation-iteration-count: infinite;
+    text-align: center;
+    padding: 100px 100px;
+    align-items: center;
+    /* position: relative; */
+}
+ .anim{
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    position: relative;
+} 
+.anim1{
+    animation-name: anim1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 20px;
+    right: 15%;
+}
+@keyframes anim1 {
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.anim2{
+    animation-name: anim2;
+    /* opacity: 0; */
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 20px;
+    right: 15%;
+}
+@keyframes anim2 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.anim3{
+    animation-name: anim3;
+    /* opacity: 0; */
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 20px;
+    right: 15%;
+}
+@keyframes anim3 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .sec1>div{
+        font-size: 12px;
+    }
+    .animsec{
+        height: 20vh;
+        padding: 50px 80px;
+    }
+}
